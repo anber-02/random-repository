@@ -15,7 +15,7 @@
 - **TypeScript**: Superconjunto de JavaScript que añade tipos estáticos.
 - **GitHub API**: Para obtener datos de repositorios aleatorios.
 - **Fetch API**: Para realizar solicitudes HTTP a la API de GitHub.
-- **CSS**: Para estilizar la aplicación.
+- **TailwindCSS**: Para estilizar la aplicación.
 
 ## Captura de Pantalla
 
