@@ -15,7 +15,7 @@
 - **TypeScript**: Superconjunto de JavaScript que añade tipos estáticos.
 - **GitHub API**: Para obtener datos de repositorios aleatorios.
 - **Fetch API**: Para realizar solicitudes HTTP a la API de GitHub.
-- **CSS**: Para estilizar la aplicación.
+- **TailwindCSS**: Para estilizar la aplicación.
 
 ## Captura de Pantalla
 
@@ -41,6 +41,16 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 
 2. Navega al directorio del proyecto:
 
-bash
-Copy
-cd buscador-repositorios-github
+   ```bash
+   cd buscador-repositorios-github
+   ```
+
+3. Instala las dependencias
+   ```bash
+   npm install
+   ```
+
+4. Inicia la aplicacion
+   ```bash
+   npm start
+   ```
