@@ -41,16 +41,16 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 
 2. Navega al directorio del proyecto:
 
-```bash
-cd buscador-repositorios-github
-```
+   ```bash
+   cd buscador-repositorios-github
+   ```
 
 3. Instala las dependencias
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. Inicia la aplicacion
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
