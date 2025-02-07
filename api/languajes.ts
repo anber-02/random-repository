@@ -1,4 +1,6 @@
-export default async function handler(req, res) {
+import type { VercelRequest, VercelResponse } from "@vercel/node";
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     const response = await fetch(
       "https://raw.githubusercontent.com/kamranahmedse/githunt/master/src/components/filters/language-filter/languages.json"
@@ -8,7 +10,7 @@ export default async function handler(req, res) {
     }
     const data = await response.json();
 
-    res.status(200).json(data); // Devuelve la data con CORS headers correctos
+    res.status(200).json(data);
   } catch (error) {
     console.error("Error fetching languages:", error);
     res.status(500).json({ error: "Failed to fetch languages" });
