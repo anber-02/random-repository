@@ -1,6 +1,6 @@
 export const getLanguages = async function () {
   const result = await fetch(
-    "/api/kamranahmedse/githunt/master/src/components/filters/language-filter/languages.json",
+    "https://raw.githubusercontent.com/kamranahmedse/githunt/master/src/components/filters/language-filter/languages.json",
     {
       method: "GET",
       headers: {
