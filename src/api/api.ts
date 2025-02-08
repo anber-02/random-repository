@@ -1,5 +1,7 @@
 export const getLanguages = async function () {
-  const result = await fetch("/api/languages"); // Llama a la función serverless
+  const result = await fetch(
+    "https://raw.githubusercontent.com/kamranahmedse/githunt/master/src/components/filters/language-filter/languages.json"
+  ); // Llama a la función serverless
   const data = await result.json();
   return data;
 };
